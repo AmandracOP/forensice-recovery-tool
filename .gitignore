@@ -1,0 +1,66 @@
+# Python Bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.virtualenv/
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Data files
+data/
+mock_filesystems/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+
+# Backup Files
+*.bak
+*.tmp
+*.swp
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.cache/
+
+# Coverage Reports
+coverage.xml
+*.cover
+*.coverage
+*.hypothesis/
+nosetests.xml
+coverage.json
+
+# MyPy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# C extensions
+*.so
+
+# Distribution / packaging
+*.egg
+*.egg-info
+dist/
+build/
